@@ -1,0 +1,135 @@
+visualizer_fifo_path = "/tmp/mpd.fifo"
+lyrics_directory = "~/.ncmpcpp/lyrics"
+ncmpcpp_directory = "~/.ncmpcpp"
+
+# -- MPD.
+data_fetching_delay = yes
+mpd_connection_timeout = "3"
+mpd_crossfade_time = "5"
+mpd_host = "localhost"
+mpd_music_dir = "~/share/music/mpd"
+mpd_port = "6600"
+
+# -- STARTUP.
+#startup_screen = SCREEN_NAME
+#startup_slave_screen = SCREEN_NAME
+#startup_slave_screen_focus = yes/no
+autocenter_mode = yes
+jump_to_now_playing_song_at_start = yes
+
+# -- MISC.
+#enable_window_title = yes/no
+#execute_on_song_change = COMMAND
+#lastfm_preferred_language = ISO 639 alpha-2 language code
+#message_delay_time = SECONDS
+#selected_item_prefix = "$6"
+#selected_item_suffix = "$9"
+#volume_change_step = NUMBER
+ask_for_locked_screen_width_part = yes
+centered_cursor = no
+clock_display_seconds = yes
+cyclic_scrolling = no
+default_find_mode = wrapped
+empty_tag_marker = "<>"
+external_editor = "/usr/bin/vim"
+generate_win32_compatible_filenames = yes
+header_text_scrolling = yes
+header_visibility = yes
+ignore_leading_the = yes
+incremental_seeking = yes
+lines_scrolled = 5
+locked_screen_width_part = 50
+mouse_list_scroll_whole_page = yes
+mouse_support = yes
+progressbar_boldness = no
+progressbar_look = "=>"
+regular_expressions = basic
+screen_switcher_mode = previous
+seek_time = 1
+song_columns_list_format = "(10)[blue]{l} (4)[green]{n:#} (20)[green]{a} (20)[green]{b} (80)[red]{t|f:Title}"
+song_list_format = "{%a - }{%t}|{$8%f$9}$R{$3(%l)$9}"
+song_window_title_format = "{%a - }{%t}|{%f}"
+system_encoding = utf8
+titles_visibility = yes
+use_console_editor = yes
+user_interface = classic
+
+# -- LYRICS.
+#follow_now_playing_lyrics = yes/no
+fetch_lyrics_for_current_song_in_background = no
+store_lyrics_in_song_dir = no
+
+# -- STATUSBAR.
+#alternative_header_second_line_format = TEXT
+song_library_format = "{%n - }{%t}|{%f}"
+display_bitrate = yes
+display_remaining_time = no
+display_volume_level = yes
+now_playing_prefix = "$b"
+now_playing_suffix = "$/b"
+song_status_format = "{{%a{ \"%b\"{ (%y)}} - }{%t}}|{%f}"
+statusbar_visibility = yes
+
+# -- PLAYLIST.
+#playlist_show_mpd_host = yes/no
+#playlist_show_remaining_time = yes/no
+ask_before_clearing_playlists = yes
+playlist_disable_highlight_delay = 0
+playlist_display_mode = columns
+playlist_editor_display_mode = columns
+playlist_separate_albums = yes
+playlist_shorten_total_times = yes
+
+# -- BROWSER.
+#browser_playlist_prefix = "$2playlist$9 "
+#browser_sort_format
+#browser_sort_mode
+allow_for_physical_item_deletion = no
+browser_display_mode = columns
+show_hidden_files_in_local_browser = yes
+
+# -- SEARCH.
+#search_engine_default_search_mode = MODE_NUMBER
+block_search_constraints_change_if_items_found = no
+default_place_to_search_in = database
+search_engine_display_mode = columns
+
+# -- LIBRARY.
+#media_library_primary_tag = artist/album_artist/date/genre/composer/performer
+#media_library_sort_by_mtime = yes/no
+
+# -- TAG EDITOR.
+#default_tag_editor_pattern = TEXT
+#modified_item_prefix = TEXT
+#tags_separator = TEXT
+discard_colors_if_item_is_selected = yes
+tag_editor_extended_numeration = no
+
+# -- VISUALIZER.
+#visualizer_color = COLORS
+visualizer_in_stereo = yes
+#visualizer_look = STRING
+#visualizer_output_name = "my_fifo"
+#visualizer_sample_multiplier = NUMBER
+visualizer_sync_interval = 30
+visualizer_type = spectrum
+
+# -- COLORS.
+active_column_color = default
+active_window_border = default
+#alternative_ui_separator_color = COLOR
+color1 = default
+color2 = default
+colors_enabled = yes
+empty_tag_color = default
+header_window_color = default
+main_window_color = default
+main_window_highlight_color = default
+progressbar_color = default
+progressbar_elapsed_color = default
+state_flags_color = default
+state_line_color = default
+statusbar_color = default
+volume_color = default
+window_border_color = default
+
