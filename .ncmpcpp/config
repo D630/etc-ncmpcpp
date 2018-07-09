@@ -41,7 +41,6 @@ lines_scrolled = 5
 locked_screen_width_part = 50
 mouse_list_scroll_whole_page = yes
 mouse_support = yes
-progressbar_boldness = no
 progressbar_look = "=>"
 regular_expressions = basic
 screen_switcher_mode = previous
@@ -115,7 +114,6 @@ visualizer_sync_interval = 30
 visualizer_type = spectrum
 
 # -- COLORS.
-active_column_color = default
 active_window_border = default
 #alternative_ui_separator_color = COLOR
 color1 = default
@@ -124,7 +122,6 @@ colors_enabled = yes
 empty_tag_color = default
 header_window_color = default
 main_window_color = default
-main_window_highlight_color = default
 progressbar_color = default
 progressbar_elapsed_color = default
 state_flags_color = default
